@@ -1,457 +1,1098 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="scroll-smooth">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Guilherme Félix | Psicólogo — Terapia Cognitivo-Comportamental</title>
-<meta name="description" content="Atendimento psicológico com foco em Terapia Cognitivo-Comportamental (TCC). Um espaço de escuta, acolhimento e construção de mudanças possíveis. Online e presencial em Manaus/AM.">
-<meta name="theme-color" content="#123B52">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-:root{
-  --bg:#fff;
-  --bg-soft:#f4f7f7;
-  --primary:#3e8f78;
-  --primary-hover:#347b67;
-  --ink:#123b52;
-  --ink-70:#3c5a6c;
-  --muted:#5b7789;
-  --accent:#28657a;
-  --border:#e2ebeb;
-  --border-soft:#dce9e5;
-  --shadow:0 10px 34px rgba(18,59,82,.08);
-  --shadow-sm:0 4px 18px rgba(18,59,82,.06);
-  --radius:16px;
-  --max:1120px;
-  --display:'Manrope',sans-serif;
-  --body:'Inter',sans-serif;
-}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;font-family:var(--body);color:var(--ink);background:var(--bg);line-height:1.65;-webkit-font-smoothing:antialiased}
-img{max-width:100%;display:block}
-a{color:inherit;text-decoration:none}
-button{font:inherit}
-ul{margin:0;padding:0;list-style:none}
-h1,h2,h3{font-family:var(--display);margin:0;line-height:1.14;color:var(--ink)}
-p{margin:0}
-.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
-section{padding:88px 0}
-.eyebrow{display:inline-block;font-size:12.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--primary)}
-.section-head{max-width:680px;margin-bottom:42px}
-.section-head h2{font-size:clamp(29px,3.5vw,40px);font-weight:750;margin-top:10px;letter-spacing:-.02em}
-.section-head p{font-size:17px;color:var(--muted);margin-top:14px;max-width:620px}
-:focus-visible{outline:3px solid rgba(62,143,120,.35);outline-offset:3px}
-@media(prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Básico e Metadados Estruturados -->
+  <title>Guilherme Félix | Psicólogo — Psicologia do Esporte & Clínica em Manaus e Online</title>
+  <meta name="description" content="Psicologia do Esporte e Atendimento Clínico com Guilherme Félix (CRP 20/05432). Performance com equilíbrio, foco, regulação emocional e autoconhecimento. Presencial em Manaus/AM e Online.">
+  <meta name="keywords" content="Psicologia do Esporte Manaus, Psicólogo Esportivo Manaus, Psicologia Clínica, Performance com Equilíbrio, Ansiedade Atleta, Terapia Online">
+  <meta name="author" content="Guilherme Félix">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Redes Sociais -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Guilherme Félix | Psicólogo — Performance com Equilíbrio">
+  <meta property="og:description" content="Espaço profissional e acolhedor para atletas, técnicos, famílias e atendimento clínico. Presencial em Manaus/AM e Online.">
+  <meta property="og:site_name" content="Guilherme Félix Psicologia">
+  
+  <!-- Schema.org JSON-LD para SEO Local e Profissional -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Psychologist",
+    "name": "Guilherme Félix - Psicologia",
+    "description": "Psicólogo especialista em Psicologia do Esporte e Atendimento Clínico fundamentado na Terapia Cognitivo-Comportamental (TCC). CRP 20/05432.",
+    "telephone": "+5592981035676",
+    "email": "psiguilhermefelix@gmail.com",
+    "sameAs": [
+      "https://www.instagram.com/euguilhermefelix/"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Manaus",
+      "addressRegion": "AM",
+      "addressCountry": "BR"
+    },
+    "priceRange": "$$",
+    "areaServed": ["Manaus", "Brasil", "Mundial (Online)"]
+  }
+  </script>
 
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border-radius:10px;cursor:pointer;white-space:nowrap;font-size:15px;font-weight:700;transition:transform .2s,background .2s,border-color .2s,box-shadow .2s}
-.btn-primary{background:var(--primary);color:#fff;padding:15px 24px;box-shadow:0 7px 18px rgba(62,143,120,.18)}
-.btn-primary:hover{background:var(--primary-hover);transform:translateY(-1px);box-shadow:0 9px 22px rgba(62,143,120,.24)}
-.btn-secondary{background:#fff;color:var(--ink);border:1.5px solid #b9cdd0;padding:14px 23px}
-.btn-secondary:hover{background:var(--bg-soft);border-color:var(--accent)}
-.btn-link{color:var(--primary);font-weight:700}
-.btn-link:hover{text-decoration:underline}
+  <!-- Google Fonts: Manrope (Títulos) + Inter (Corpo) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome 6 (Webfont CSS) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-/* Header */
-header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.93);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
-.nav{display:flex;align-items:center;justify-content:space-between;min-height:76px}
-.logo{display:flex;flex-direction:column;line-height:1.2}
-.logo strong{font-family:var(--display);font-size:18px;font-weight:750}
-.logo span{font-size:12px;color:var(--muted);font-weight:600;margin-top:3px}
-.nav-links{display:flex;align-items:center;gap:28px}
-.nav-links a{font-size:14px;font-weight:600;color:var(--ink-70)}
-.nav-links a:hover{color:var(--primary)}
-.nav-cta{display:flex;align-items:center;gap:14px}
-.menu-toggle{display:none;background:none;border:0;cursor:pointer;padding:7px;flex-direction:column;gap:5px}
-.menu-toggle span{width:22px;height:2px;background:var(--ink);display:block;border-radius:2px}
-.mobile-menu{display:none;flex-direction:column;border-top:1px solid var(--border);padding:7px 0 18px}
-.mobile-menu a{padding:13px 4px;font-size:15px;font-weight:600;color:var(--ink-70);border-bottom:1px solid var(--border)}
-.mobile-menu.open{display:flex}
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'deep-blue': '#123B52',    /* Primária institucional / autoridade */
+            'med-blue': '#28657A',     /* Azul intermediário */
+            'accent-green': '#3E8F78', /* Verde profissional para CTA e ação */
+            'accent-hover': '#347B67', /* Verde hover */
+            'light-green': '#DCEDE7',  /* Verde claro de acolhimento */
+            'bg-base': '#FFFFFF',      /* Fundo padrão */
+            'bg-alt': '#F4F7F7',       /* Superfície de cards e áreas de respiro */
+            'text-muted': '#60727A',   /* Cinza azulado secundário */
+            'border-subtle': '#E5ECEC' /* Borda fina minimalista */
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            heading: ['Manrope', 'sans-serif'],
+          },
+          boxShadow: {
+            'subtle': '0 4px 24px rgba(18, 59, 82, 0.04)',
+            'card-hover': '0 12px 32px rgba(18, 59, 82, 0.08)',
+          }
+        }
+      }
+    }
+  </script>
 
-/* Hero */
-.hero{padding:72px 0 62px;background:linear-gradient(180deg,#fff 0%,#fbfdfc 100%)}
-.hero .wrap{display:grid;grid-template-columns:1.04fr .96fr;gap:68px;align-items:center}
-.hero-copy{max-width:590px;opacity:0;transform:translateY(12px);animation:rise .7s ease forwards}
-.hero-media{opacity:0;transform:translateY(12px);animation:rise .7s ease .12s forwards}
-@keyframes rise{to{opacity:1;transform:translateY(0)}}
-.hero h1{font-size:clamp(37px,4.7vw,58px);font-weight:800;letter-spacing:-.035em;margin-top:13px}
-.hero .lead{font-size:18px;line-height:1.72;color:var(--ink-70);margin-top:20px;max-width:555px}
-.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
-.hero-note{display:flex;align-items:center;gap:9px;margin-top:20px;font-size:13.5px;font-weight:600;color:var(--muted)}
-.hero-note::before{content:'';width:8px;height:8px;border-radius:50%;background:var(--primary);flex:0 0 auto}
-.hero-media .photo-frame{aspect-ratio:4/5;max-width:470px;margin-left:auto;border-radius:22px;overflow:hidden;border:1px solid var(--border);box-shadow:var(--shadow);background:#e8eceb}
-.hero-media img{width:100%;height:100%;object-fit:cover;object-position:center 23%}
-.hero-trust{margin-top:48px;padding-top:22px;border-top:1px solid var(--border);display:flex;flex-wrap:wrap;gap:10px 24px}
-.hero-trust span{font-size:13px;color:var(--muted);font-weight:650}
-.hero-trust span:not(:last-child)::after{content:'•';margin-left:24px;color:#b9c8ca}
+  <style>
+    /* Transições suaves e estética minimalista */
+    .transition-custom {
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    
+    /* Linha de Trajetória Sutil */
+    .trajectory-path {
+      background: linear-gradient(90deg, rgba(40,101,122,0.08) 0%, rgba(62,143,120,0.25) 50%, rgba(40,101,122,0.08) 100%);
+    }
 
-/* Problem/value */
-.value{background:var(--bg-soft)}
-.value-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
-.value-card{background:#fff;border:1px solid var(--border);border-radius:var(--radius);padding:31px 30px;box-shadow:var(--shadow-sm)}
-.value-card .num{font-size:12px;font-weight:800;letter-spacing:.08em;color:var(--primary)}
-.value-card h3{font-size:22px;margin-top:9px}
-.value-card p{font-size:15.5px;color:var(--ink-70);margin-top:11px}
-.value-card ul{display:flex;flex-direction:column;gap:10px;margin-top:18px}
-.value-card li{position:relative;padding-left:19px;font-size:15px;color:var(--ink-70)}
-.value-card li::before{content:'✓';position:absolute;left:0;color:var(--primary);font-weight:800}
+    /* Ocultar barra de rolagem em overflow horizontal mobile se necessário */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
 
-/* Process */
-.process-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.process-card{padding:28px 25px;border:1px solid var(--border);border-radius:15px;background:#fff}
-.process-card .step{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--bg-soft);color:var(--primary);font-weight:800;font-size:13px}
-.process-card h3{font-size:19px;margin-top:17px}
-.process-card p{font-size:14.5px;color:var(--muted);margin-top:8px}
+    /* =========================================================
+       CLASSES DE ANIMAÇÃO DE SCROLL (MOTION DESIGN)
+       ========================================================= */
+    
+    /* Estado inicial invisível para elementos que serão revelados */
+    .reveal {
+      opacity: 0;
+      /* Removido visibility: hidden para evitar cortes abruptos no scroll repetido */
+      transition: opacity 1s cubic-bezier(0.22, 1, 0.36, 1), transform 1s cubic-bezier(0.22, 1, 0.36, 1);
+      will-change: opacity, transform; /* Aceleração de hardware para máxima fluidez */
+    }
 
-/* About */
-.sobre{background:var(--bg-soft)}
-.sobre .wrap{display:grid;grid-template-columns:.78fr 1.22fr;gap:65px;align-items:center}
-.sobre-media .photo-frame{aspect-ratio:4/5;border-radius:22px;overflow:hidden;border:1px solid var(--border);box-shadow:var(--shadow);background:#e8eceb}
-.sobre-media img{width:100%;height:100%;object-fit:cover;object-position:center 38%}
-.sobre-copy h2{font-size:clamp(29px,3.3vw,39px);font-weight:750;margin-top:9px;letter-spacing:-.02em}
-.sobre-copy p{font-size:16px;color:var(--ink-70);margin-top:17px;max-width:620px}
-.badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:25px}
-.badge{font-size:12.5px;font-weight:700;color:var(--ink);border:1px solid var(--border-soft);background:#fff;padding:9px 13px;border-radius:999px}
+    /* Variações de direção inicial - Deslocamentos menores (30px) para mais elegância */
+    .reveal-up { transform: translateY(30px); }
+    .reveal-left { transform: translateX(30px); }
+    .reveal-right { transform: translateX(-30px); }
+    .reveal-scale { transform: scale(0.97); }
 
-/* FAQ */
-.faq{background:#fff}
-.faq-list{max-width:780px;margin:0 auto;display:flex;flex-direction:column;gap:10px}
-.faq-item{border:1px solid var(--border);border-radius:14px;overflow:hidden;background:#fff}
-.faq-q{width:100%;text-align:left;background:none;border:0;cursor:pointer;padding:20px 22px;display:flex;justify-content:space-between;align-items:center;gap:16px;font-family:var(--display);font-size:16px;font-weight:700;color:var(--ink)}
-.faq-q .plus{position:relative;width:20px;height:20px;flex:0 0 auto}
-.faq-q .plus::before,.faq-q .plus::after{content:'';position:absolute;background:var(--primary);border-radius:2px;top:50%;left:50%;transform:translate(-50%,-50%)}
-.faq-q .plus::before{width:13px;height:2px}
-.faq-q .plus::after{width:2px;height:13px;transition:transform .2s}
-.faq-item.open .plus::after{transform:translate(-50%,-50%) rotate(90deg) scale(0)}
-.faq-a{max-height:0;overflow:hidden;transition:max-height .28s ease}
-.faq-a p{padding:0 22px 20px;color:var(--muted);font-size:15px;max-width:700px}
+    /* Estado ativo (quando o elemento entra na tela) */
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0) translateX(0) scale(1);
+    }
 
-/* CTA */
-.final-cta{background:var(--ink);color:#fff;text-align:center}
-.final-cta .wrap{max-width:760px}
-.final-cta h2{color:#fff;font-size:clamp(29px,3.8vw,42px);font-weight:750}
-.final-cta p{color:#c5d5d9;font-size:17px;margin-top:13px}
-.final-cta .btn{margin-top:26px;background:var(--primary)}
-.final-cta .btn:hover{background:#4aa98d}
+    /* Atrasos (Staggering) para efeito de cascata */
+    .delay-100 { transition-delay: 100ms; }
+    .delay-200 { transition-delay: 200ms; }
+    .delay-300 { transition-delay: 300ms; }
+    .delay-400 { transition-delay: 400ms; }
 
-/* Footer */
-footer{background:#0d2f41;color:#eaf1f0;padding:50px 0 86px}
-.footer-grid{display:grid;grid-template-columns:1.4fr .7fr .9fr;gap:44px}
-.footer-brand strong{font-family:var(--display);font-size:18px}
-.footer-brand p{font-size:13.5px;color:#9fb6bf;margin-top:9px;max-width:360px}
-.footer-col h4{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#9fb6bf;margin:0 0 13px}
-.footer-col ul{display:flex;flex-direction:column;gap:9px}
-.footer-col a{font-size:14px;color:#d7e4e2}
-.footer-col a:hover{color:#fff}
-.footer-bottom{margin-top:42px;padding-top:20px;border-top:1px solid rgba(255,255,255,.1);font-size:12px;color:#8fa7b0;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
-
-/* Conversion helpers */
-.float-wa{position:fixed;right:22px;bottom:22px;z-index:55;width:58px;height:58px;border-radius:50%;background:var(--primary);box-shadow:0 9px 24px rgba(18,59,82,.24);display:flex;align-items:center;justify-content:center;transition:transform .2s,background .2s}
-.float-wa:hover{background:var(--primary-hover);transform:scale(1.05)}
-.float-wa svg{width:27px;height:27px}
-.sticky-bar{display:none}
-@media(max-width:980px){
-  section{padding:72px 0}
-  .nav-links{display:none}
-  .nav-cta .btn-secondary{display:none}
-  .menu-toggle{display:flex}
-  .hero{padding-top:54px}
-  .hero .wrap{grid-template-columns:1fr;gap:38px}
-  .hero-copy{max-width:680px}
-  .hero-media{order:1}
-  .hero-media .photo-frame{margin:0 auto;max-width:390px}
-  .value-grid{grid-template-columns:1fr}
-  .process-grid{grid-template-columns:1fr}
-  .sobre .wrap{grid-template-columns:1fr;gap:38px}
-  .sobre-media{max-width:360px;margin:0 auto}
-  .footer-grid{grid-template-columns:1fr}
-  .float-wa{display:none}
-  .sticky-bar{display:block;position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px 14px;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-top:1px solid var(--border);transform:translateY(110%);transition:transform .25s}
-  .sticky-bar.visible{transform:translateY(0)}
-  .sticky-bar a{height:54px;border-radius:10px;background:var(--primary);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:750;font-size:15px}
-}
-@media(max-width:560px){
-  .wrap{padding:0 19px}
-  .nav{min-height:70px}
-  .nav-cta>.btn-primary{padding:12px 14px;font-size:13px}
-  .hero{padding:44px 0 48px}
-  .hero h1{font-size:38px}
-  .hero .lead{font-size:16.5px}
-  .hero-actions{flex-direction:column;align-items:stretch}
-  .hero-actions .btn{width:100%}
-  .hero-media .photo-frame{max-width:100%}
-  .hero-trust{gap:8px 15px}
-  .hero-trust span:not(:last-child)::after{margin-left:15px}
-  .value-card{padding:26px 23px}
-  .section-head{margin-bottom:32px}
-  section{padding:62px 0}
-}
-</style>
+    /* Flutuação no Hover para os Cards */
+    .hover-float:hover {
+      transform: translateY(-5px);
+    }
+  </style>
 </head>
-<body>
+<body class="bg-bg-base text-deep-blue font-sans antialiased selection:bg-light-green selection:text-deep-blue overflow-x-hidden">
 
-<header>
-  <nav class="wrap nav" aria-label="Navegação principal">
-    <a href="#inicio" class="logo" aria-label="Guilherme Félix - início">
-      <strong>Guilherme Félix</strong>
-      <span>Psicólogo</span>
-    </a>
-    <ul class="nav-links">
-      <li><a href="#inicio">Início</a></li>
-      <li><a href="#tcc">TCC</a></li>
-      <li><a href="#como-funciona">Como funciona</a></li>
-      <li><a href="#sobre">Sobre</a></li>
-      <li><a href="#faq">Dúvidas</a></li>
-    </ul>
-    <div class="nav-cta">
-      <a href="https://wa.me/5592981035676?text=Ol%C3%A1%2C%20Guilherme!%20Gostaria%20de%20saber%20como%20funciona%20o%20atendimento%20com%20TCC." target="_blank" rel="noopener noreferrer" class="btn btn-primary">Falar no WhatsApp</a>
-      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileMenu" id="menuToggle">
-        <span></span><span></span><span></span>
+  <!-- ==================== 01. HEADER GLOBAL ==================== -->
+  <header id="top" class="fixed top-0 left-0 w-full z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Marca / Logo -->
+      <a href="#top" class="flex flex-col group" aria-label="Guilherme Félix - Início">
+        <span class="font-heading font-bold text-xl sm:text-2xl tracking-tight text-deep-blue group-hover:text-med-blue transition-colors">
+          Guilherme Félix
+        </span>
+        <span class="text-xs font-semibold uppercase tracking-wider text-accent-green">
+          Psicólogo • CRP 20/05432
+        </span>
+      </a>
+
+      <!-- Menu Âncora Desktop -->
+      <nav class="hidden md:flex items-center space-x-7 text-sm font-medium text-deep-blue/80">
+        <a href="#top" class="hover:text-accent-green transition-colors">Início</a>
+        <a href="#esporte" class="hover:text-accent-green transition-colors">Esporte</a>
+        <a href="#clinica" class="hover:text-accent-green transition-colors">Clínica</a>
+        <a href="#contextos" class="hover:text-accent-green transition-colors">Para Quem É</a>
+        <a href="#sobre" class="hover:text-accent-green transition-colors">Sobre</a>
+        <a href="#faq" class="hover:text-accent-green transition-colors">FAQ</a>
+        <a href="https://www.instagram.com/euguilhermefelix/" target="_blank" rel="noopener noreferrer" class="text-deep-blue/70 hover:text-accent-green transition-colors flex items-center gap-1.5" title="Instagram @euguilhermefelix">
+          <i class="fa-brands fa-instagram text-base"></i>
+        </a>
+      </nav>
+
+      <!-- Botão de Ação Primária Desktop -->
+      <div class="hidden md:flex items-center gap-3">
+        <button onclick="openBookingModal('Header')" class="bg-accent-green hover:bg-accent-hover text-white font-semibold text-sm px-6 py-3 rounded-lg shadow-sm hover:shadow-md transition-custom flex items-center gap-2">
+          <i class="fa-brands fa-whatsapp text-base"></i>
+          <span>Agendar no WhatsApp</span>
+        </button>
+      </div>
+
+      <!-- Botão Menu Mobile -->
+      <button id="mobile-menu-btn" onclick="toggleMobileMenu()" aria-label="Abrir menu de navegação" class="md:hidden p-2.5 text-deep-blue hover:text-accent-green focus:outline-none rounded-lg hover:bg-bg-alt">
+        <i id="menu-icon" class="fa-solid fa-bars text-xl"></i>
       </button>
     </div>
-  </nav>
-  <div class="mobile-menu wrap" id="mobileMenu">
-    <a href="#inicio">Início</a>
-    <a href="#tcc">Terapia Cognitivo-Comportamental</a>
-    <a href="#como-funciona">Como funciona</a>
-    <a href="#sobre">Sobre</a>
-    <a href="#faq">Dúvidas frequentes</a>
-  </div>
-</header>
 
-<main>
-<section class="hero" id="inicio">
-  <div class="wrap">
-    <div class="hero-copy">
-      <span class="eyebrow">Terapia Cognitivo-Comportamental • TCC</span>
-      <h1>Entender o que você sente é um passo para mudar o que está vivendo.</h1>
-      <p class="lead">Atendimento psicológico com foco em Terapia Cognitivo-Comportamental, em um espaço de escuta, acolhimento e construção de estratégias para lidar com pensamentos, emoções e situações do dia a dia.</p>
-      <div class="hero-actions">
-        <a href="https://wa.me/5592981035676?text=Ol%C3%A1%2C%20Guilherme!%20Gostaria%20de%20saber%20como%20funciona%20o%20atendimento%20com%20TCC." target="_blank" rel="noopener noreferrer" class="btn btn-primary">Quero conversar pelo WhatsApp →</a>
-        <a href="#como-funciona" class="btn btn-secondary">Entender como funciona</a>
-      </div>
-      <div class="hero-note">Online e presencial em Manaus/AM</div>
-    </div>
-    <div class="hero-media">
-      <div class="photo-frame">
-        <img src="assets/guilherme-felix.webp" alt="Guilherme Félix, psicólogo" width="896" height="1195">
+    <!-- Gaveta de Navegação Mobile -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-gray-200 px-5 pt-3 pb-6 space-y-3">
+      <a href="#top" onclick="toggleMobileMenu()" class="block py-2.5 text-base font-medium text-deep-blue border-b border-gray-100">Início</a>
+      <a href="#esporte" onclick="toggleMobileMenu()" class="block py-2.5 text-base font-medium text-deep-blue border-b border-gray-100">Psicologia do Esporte</a>
+      <a href="#clinica" onclick="toggleMobileMenu()" class="block py-2.5 text-base font-medium text-deep-blue border-b border-gray-100">Atendimento Clínico</a>
+      <a href="#contextos" onclick="toggleMobileMenu()" class="block py-2.5 text-base font-medium text-deep-blue border-b border-gray-100">Para Quem É</a>
+      <a href="#sobre" onclick="toggleMobileMenu()" class="block py-2.5 text-base font-medium text-deep-blue border-b border-gray-100">Sobre o Guilherme</a>
+      <a href="#faq" onclick="toggleMobileMenu()" class="block py-2.5 text-base font-medium text-deep-blue border-b border-gray-100">Perguntas Frequentes</a>
+      <a href="https://www.instagram.com/euguilhermefelix/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 py-2.5 text-base font-medium text-deep-blue border-b border-gray-100">
+        <i class="fa-brands fa-instagram text-accent-green"></i>
+        <span>@euguilhermefelix</span>
+      </a>
+      <div class="pt-2">
+        <button onclick="openBookingModal('Menu Mobile'); toggleMobileMenu();" class="w-full bg-accent-green hover:bg-accent-hover text-white font-semibold py-3.5 rounded-lg text-center flex items-center justify-center gap-2">
+          <i class="fa-brands fa-whatsapp text-base"></i>
+          <span>Agendar atendimento</span>
+        </button>
       </div>
     </div>
-  </div>
-  <div class="wrap hero-trust" aria-label="Informações do atendimento">
-    <span>Atendimento individual</span>
-    <span>Terapia Cognitivo-Comportamental</span>
-    <span>Online</span>
-    <span>Presencial em Manaus</span>
-  </div>
-</section>
+  </header>
 
-<section class="value" id="tcc">
-  <div class="wrap">
-    <div class="section-head">
-      <span class="eyebrow">Terapia Cognitivo-Comportamental</span>
-      <h2>Um processo estruturado para olhar para o que está acontecendo hoje.</h2>
-      <p>A TCC trabalha a relação entre pensamentos, emoções e comportamentos, ajudando a compreender padrões e a desenvolver formas mais funcionais de lidar com diferentes situações.</p>
+  <!-- ==================== 02. HERO SECTION ==================== -->
+  <section class="pt-28 pb-16 md:pt-40 md:pb-24 bg-gradient-to-b from-bg-alt/50 via-bg-base to-bg-base relative overflow-hidden">
+    <!-- Linha de Trajetória Sutil Decorativa -->
+    <div class="absolute inset-0 pointer-events-none opacity-40 reveal reveal-scale delay-400">
+      <div class="h-full w-full trajectory-path transform -skew-y-3"></div>
     </div>
-    <div class="value-grid">
-      <article class="value-card">
-        <span class="num">01 — NA PRÁTICA</span>
-        <h3>O que podemos trabalhar</h3>
-        <ul>
-          <li>Ansiedade e pensamentos acelerados</li>
-          <li>Autoconhecimento e regulação emocional</li>
-          <li>Estresse, sobrecarga e dificuldades do cotidiano</li>
-          <li>Autocobrança, inseguranças e tomada de decisões</li>
-          <li>Transições de vida, carreira e relacionamentos</li>
-        </ul>
-      </article>
-      <article class="value-card">
-        <span class="num">02 — O PROCESSO</span>
-        <h3>Terapia construída em conjunto</h3>
-        <p>O ponto de partida é compreender sua demanda, sua história e seu contexto. A partir disso, terapeuta e paciente definem objetivos e acompanham o processo ao longo das sessões.</p>
-        <p style="margin-top:15px">Não é necessário chegar sabendo exatamente o que dizer. A primeira conversa serve justamente para organizar essa demanda.</p>
-      </article>
-    </div>
-  </div>
-</section>
 
-<section id="como-funciona">
-  <div class="wrap">
-    <div class="section-head">
-      <span class="eyebrow">Como funciona</span>
-      <h2>Começar pode ser mais simples do que parece.</h2>
-      <p>O primeiro contato é pelo WhatsApp. A ideia é tirar suas dúvidas e entender se o atendimento faz sentido para o que você está buscando.</p>
-    </div>
-    <div class="process-grid">
-      <article class="process-card">
-        <span class="step">1</span>
-        <h3>Você chama</h3>
-        <p>Envie uma mensagem pelo WhatsApp. Você pode falar brevemente sobre o que está buscando ou apenas tirar suas dúvidas.</p>
-      </article>
-      <article class="process-card">
-        <span class="step">2</span>
-        <h3>Conversamos</h3>
-        <p>Alinhamos a demanda, o formato do atendimento, disponibilidade e as informações necessárias para começar.</p>
-      </article>
-      <article class="process-card">
-        <span class="step">3</span>
-        <h3>Iniciamos o processo</h3>
-        <p>Na primeira sessão, aprofundamos sua demanda e começamos a construir os objetivos do acompanhamento.</p>
-      </article>
-    </div>
-    <div style="margin-top:30px">
-      <a class="btn btn-primary" href="https://wa.me/5592981035676?text=Ol%C3%A1%2C%20Guilherme!%20Quero entender como funciona a primeira sess%C3%A3o." target="_blank" rel="noopener noreferrer">Tirar minhas dúvidas no WhatsApp →</a>
-    </div>
-  </div>
-</section>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+        
+        <!-- Conteúdo Textual Hero -->
+        <div class="lg:col-span-7 space-y-6 text-left">
+          
+          <!-- Overline Tag com menção a TCC -->
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-light-green/60 border border-light-green text-med-blue font-semibold text-xs tracking-wider uppercase reveal reveal-up">
+            <span class="w-2 h-2 rounded-full bg-accent-green animate-pulse"></span>
+            <span>Psicologia do Esporte • TCC Clínica • Manaus & Online</span>
+          </div>
 
-<section class="sobre" id="sobre">
-  <div class="wrap">
-    <div class="sobre-media">
-      <div class="photo-frame">
-        <img src="assets/guilherme-felix.webp" alt="Guilherme Félix, psicólogo, em retrato profissional" width="896" height="1195">
+          <!-- Título Principal H1 -->
+          <h1 class="font-heading font-extrabold text-3xl sm:text-4xl lg:text-5xl text-deep-blue leading-[1.2] tracking-tight reveal reveal-up delay-100">
+            Performance consistente começa no domínio dos seus pensamentos e emoções.
+          </h1>
+
+          <!-- Parágrafo Explicativo com TCC -->
+          <p class="text-base sm:text-lg text-text-muted leading-relaxed font-normal max-w-2xl reveal reveal-up delay-200">
+            Atendimento especializado baseado na <strong>Terapia Cognitivo-Comportamental (TCC)</strong>. Um espaço técnico e acolhedor para atletas, técnicos, famílias e adultos que buscam regular a ansiedade, sustentar o foco sob pressão e conquistar estabilidade emocional no esporte e na vida.
+          </p>
+
+          <!-- Botões Duplos e Informações de Formato -->
+          <div class="pt-2 space-y-4 reveal reveal-up delay-300">
+            <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4">
+              <!-- Botão Primário WhatsApp Direto -->
+              <button onclick="openBookingModal('Hero Primário')" class="bg-accent-green hover:bg-accent-hover text-white font-semibold text-base px-7 py-3.5 rounded-lg shadow-sm hover:shadow transition-custom flex items-center justify-center gap-2.5">
+                <i class="fa-brands fa-whatsapp text-lg"></i>
+                <span>Agendar atendimento no WhatsApp</span>
+              </button>
+              
+              <!-- Botão Secundário -->
+              <a href="#esporte" class="border border-med-blue/30 text-deep-blue hover:bg-bg-alt font-medium text-base px-6 py-3.5 rounded-lg transition-custom flex items-center justify-center gap-2">
+                <span>Conhecer o método TCC</span>
+                <i class="fa-solid fa-chevron-down text-xs text-med-blue"></i>
+              </a>
+            </div>
+
+            <!-- Tag de Formato / Modalidade -->
+            <div class="flex items-center gap-2 text-xs sm:text-sm font-medium text-text-muted pt-1">
+              <i class="fa-solid fa-location-dot text-accent-green text-sm"></i>
+              <span>Consultório presencial em <strong>Manaus/AM</strong> e sessões <strong>Online regulamentadas pelo CFP</strong>.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bloco Visual / Fotografia Principal do Guilherme Félix -->
+        <div class="lg:col-span-5 flex justify-center reveal reveal-left delay-200">
+          <div class="relative w-full max-w-md">
+            
+            <!-- Cartão Profissional com Fotografia Real -->
+            <div class="bg-white rounded-2xl p-4 sm:p-5 shadow-subtle border border-border-subtle relative z-10 space-y-4 hover-float transition-custom">
+              
+              <!-- Foto Real do Guilherme Félix -->
+              <div class="relative rounded-xl overflow-hidden aspect-[3/4] bg-bg-alt shadow-inner group">
+                <img 
+                  src="Gemini_Generated_Image_5ok5sf5ok5sf5ok5.png" 
+                  alt="Guilherme Félix - Psicólogo Clínico e do Esporte CRP 20/05432" 
+                  class="w-full h-full object-cover object-top transition-transform duration-700 hover:scale-[1.03]"
+                  loading="eager"
+                  onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                />
+                
+                <!-- Fallback caso a imagem local demore a renderizar -->
+                <div class="hidden absolute inset-0 bg-gradient-to-br from-deep-blue to-med-blue items-center justify-center text-white flex-col p-4 text-center">
+                  <i class="fa-solid fa-user-doctor text-4xl mb-2 text-light-green"></i>
+                  <span class="font-heading font-bold">Guilherme Félix</span>
+                  <span class="text-xs text-light-green">CRP 20/05432</span>
+                </div>
+
+                <!-- Badges de credibilidade sobre a foto -->
+                <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-[11px] bg-deep-blue/90 backdrop-blur-md px-3 py-2 rounded-lg border border-white/10 text-white">
+                  <span class="flex items-center gap-1.5">
+                    <i class="fa-solid fa-brain text-accent-green"></i>
+                    <span>Terapia Cognitivo-Comportamental</span>
+                  </span>
+                  <span class="text-light-green font-semibold">CRP 20/05432</span>
+                </div>
+              </div>
+
+              <!-- Destaques Rápidos -->
+              <div class="grid grid-cols-2 gap-3 text-left">
+                <div class="bg-bg-alt p-3 rounded-xl border border-gray-100">
+                  <span class="text-[11px] font-bold text-accent-green uppercase tracking-wider block">Esporte</span>
+                  <span class="text-xs text-text-muted">Foco, pressão pré-jogo & consistência</span>
+                </div>
+                <div class="bg-bg-alt p-3 rounded-xl border border-gray-100">
+                  <span class="text-[11px] font-bold text-med-blue uppercase tracking-wider block">Clínica (TCC)</span>
+                  <span class="text-xs text-text-muted">Ansiedade, regulação & autoconhecimento</span>
+                </div>
+              </div>
+
+              <!-- Contato Rápido & Instagram -->
+              <div class="flex items-center justify-between pt-1 text-xs text-text-muted">
+                <a href="https://www.instagram.com/euguilhermefelix/" target="_blank" rel="noopener noreferrer" class="hover:text-accent-green transition-colors flex items-center gap-1.5 font-medium">
+                  <i class="fa-brands fa-instagram text-accent-green text-sm"></i>
+                  <span>@euguilhermefelix</span>
+                </a>
+                <span class="text-[11px] text-accent-green font-semibold flex items-center gap-1">
+                  <span class="w-2 h-2 rounded-full bg-[#25D366]"></span>
+                  <span>Agenda aberta</span>
+                </span>
+              </div>
+            </div>
+
+            <!-- Fundo Sutil de Profundidade -->
+            <div class="absolute -bottom-3 -right-3 w-full h-full bg-light-green/40 rounded-2xl -z-10 transform rotate-1 transition-transform duration-500 group-hover:rotate-2"></div>
+          </div>
+        </div>
+
       </div>
     </div>
-    <div class="sobre-copy">
-      <span class="eyebrow">Sobre o profissional</span>
-      <h2>Um atendimento com escuta, clareza e respeito ao seu momento.</h2>
-      <p>Meu trabalho é voltado ao atendimento psicológico com foco em Terapia Cognitivo-Comportamental (TCC), considerando a história, o contexto e os objetivos de cada pessoa.</p>
-      <p>A terapia é um espaço de diálogo e construção conjunta. O objetivo é compreender o que está acontecendo, identificar padrões que podem estar mantendo determinadas dificuldades e, quando fizer sentido, desenvolver novas estratégias para lidar com elas.</p>
-      <div class="badges">
-        <span class="badge">Psicólogo</span>
-        <span class="badge">Abordagem: TCC</span>
-        <span class="badge">Atendimento online</span>
-        <span class="badge">Presencial em Manaus/AM</span>
+
+    <!-- Faixa de Públicos-Alvo Integrada -->
+    <div class="mt-16 border-y border-border-subtle bg-white/90 py-5 reveal reveal-up delay-300">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <p class="text-center text-xs font-semibold text-text-muted uppercase tracking-widest mb-3">
+          Atendimento Estruturado Para
+        </p>
+        <div class="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm font-semibold text-deep-blue">
+          <span class="flex items-center gap-2"><i class="fa-solid fa-circle-dot text-[8px] text-accent-green"></i> Atletas</span>
+          <span class="flex items-center gap-2"><i class="fa-solid fa-circle-dot text-[8px] text-accent-green"></i> Técnicos</span>
+          <span class="flex items-center gap-2"><i class="fa-solid fa-circle-dot text-[8px] text-accent-green"></i> Clubes</span>
+          <span class="flex items-center gap-2"><i class="fa-solid fa-circle-dot text-[8px] text-accent-green"></i> Famílias</span>
+          <span class="flex items-center gap-2"><i class="fa-solid fa-circle-dot text-[8px] text-accent-green"></i> Atendimento Clínico</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 03. ATUAÇÃO: ESPORTE VS. CLÍNICA ==================== -->
+  <section id="esporte" class="py-20 bg-bg-base">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto space-y-3 mb-16 reveal reveal-up">
+        <h2 class="text-xs font-bold uppercase tracking-widest text-accent-green">Como Posso Ajudar</h2>
+        <h3 class="font-heading font-bold text-2xl sm:text-3xl lg:text-4xl text-deep-blue">
+          Duas frentes de cuidado com metodologia própria
+        </h3>
+        <p class="text-text-muted text-base leading-relaxed">
+          O trabalho é dividido entre as necessidades da rotina esportiva de alto rendimento e as demandas individuais de psicoterapia clínica, respeitando a singularidade de cada pessoa.
+        </p>
+      </div>
+
+      <!-- Dois Grandes Cards com Borda Minimalista e Espaçamento Generoso -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+        
+        <!-- CARD 01: PSICOLOGIA DO ESPORTE -->
+        <div class="bg-white rounded-2xl p-8 sm:p-10 border border-border-subtle shadow-subtle hover:shadow-card-hover hover-float transition-custom flex flex-col justify-between group reveal reveal-right">
+          <div>
+            <!-- Topo do Card -->
+            <div class="flex items-center justify-between mb-6">
+              <span class="text-xs font-extrabold font-heading text-med-blue bg-bg-alt px-3.5 py-1.5 rounded-lg border border-border-subtle tracking-wider">
+                01 • VERTENTE ESPORTIVA
+              </span>
+              <div class="w-10 h-10 rounded-full bg-light-green/60 text-accent-green flex items-center justify-center text-lg">
+                <i class="fa-solid fa-bullseye"></i>
+              </div>
+            </div>
+
+            <h4 class="font-heading font-bold text-2xl sm:text-3xl text-deep-blue mb-3 group-hover:text-med-blue transition-colors">
+              Psicologia do Esporte
+            </h4>
+            <p class="text-text-muted text-sm sm:text-base leading-relaxed mb-6">
+              Para atletas, técnicos, equipes, clubes e famílias que buscam construir consistência competitiva, regular o estresse e atingir resultados sustentáveis sem abrir mão da saúde psicológica.
+            </p>
+
+            <div class="border-t border-gray-100 pt-6 mb-8">
+              <h5 class="text-xs font-bold uppercase tracking-wider text-deep-blue mb-4">Focos de Atuação no Esporte:</h5>
+              <ul class="space-y-3 text-sm text-text-muted">
+                <li class="flex items-start gap-3">
+                  <i class="fa-solid fa-check text-accent-green mt-1 text-xs"></i>
+                  <span><strong>Ansiedade competitiva:</strong> Manejo do nervosismo em momentos decisivos e rituais pré-jogo.</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <i class="fa-solid fa-check text-accent-green mt-1 text-xs"></i>
+                  <span><strong>Foco & Concentração:</strong> Treinamento de atenção e redução de distrações sob pressão.</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <i class="fa-solid fa-check text-accent-green mt-1 text-xs"></i>
+                  <span><strong>Lesões e retorno ao esporte:</strong> Reabilitação psicológica do medo de nova lesão e recuperação da confiança.</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <i class="fa-solid fa-check text-accent-green mt-1 text-xs"></i>
+                  <span><strong>Relação com comissão técnica e time:</strong> Comunicação assertiva, coesão grupal e liderança.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <button onclick="openBookingModal('Psicologia do Esporte')" class="w-full py-3.5 px-5 rounded-lg bg-bg-alt hover:bg-light-green/60 text-med-blue font-semibold text-sm transition-custom flex items-center justify-center gap-2 border border-border-subtle group-hover:border-med-blue/40">
+              <span>Conhecer Psicologia do Esporte</span>
+              <i class="fa-solid fa-arrow-right text-xs"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- CARD 02: ATENDIMENTO CLÍNICO -->
+        <div id="clinica" class="bg-white rounded-2xl p-8 sm:p-10 border border-border-subtle shadow-subtle hover:shadow-card-hover hover-float transition-custom flex flex-col justify-between group reveal reveal-left delay-100">
+          <div>
+            <!-- Topo do Card -->
+            <div class="flex items-center justify-between mb-6">
+              <span class="text-xs font-extrabold font-heading text-accent-green bg-light-green/40 px-3.5 py-1.5 rounded-lg border border-light-green tracking-wider">
+                02 • ESPAÇO CLÍNICO
+              </span>
+              <div class="w-10 h-10 rounded-full bg-light-green/60 text-accent-green flex items-center justify-center text-lg">
+                <i class="fa-solid fa-comments"></i>
+              </div>
+            </div>
+
+            <h4 class="font-heading font-bold text-2xl sm:text-3xl text-deep-blue mb-3 group-hover:text-accent-green transition-colors">
+              Atendimento Clínico (TCC)
+            </h4>
+            <p class="text-text-muted text-sm sm:text-base leading-relaxed mb-6">
+              Psicoterapia baseada na <strong>Terapia Cognitivo-Comportamental</strong>. Uma abordagem estruturada, colaborativa e prática para identificar crenças desadaptativas, regular a ansiedade e construir autonomia emocional.
+            </p>
+
+            <div class="border-t border-gray-100 pt-6 mb-8">
+              <h5 class="text-xs font-bold uppercase tracking-wider text-deep-blue mb-4">Focos do Atendimento Clínico:</h5>
+              <ul class="space-y-3 text-sm text-text-muted">
+                <li class="flex items-start gap-3">
+                  <i class="fa-solid fa-check text-accent-green mt-1 text-xs"></i>
+                  <span><strong>Ansiedade, pânico e estresse:</strong> Técnicas cognitivas e comportamentais para cessar o ciclo de preocupações e reatividade física.</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <i class="fa-solid fa-check text-accent-green mt-1 text-xs"></i>
+                  <span><strong>Autoestima e autocrítica:</strong> Reestruturação de exigências perfeccionistas e crenças de desvalor.</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <i class="fa-solid fa-check text-accent-green mt-1 text-xs"></i>
+                  <span><strong>Relacionamentos e limites:</strong> Treino assertivo de habilidades sociais para comunicar necessidades sem culpa.</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <i class="fa-solid fa-check text-accent-green mt-1 text-xs"></i>
+                  <span><strong>Mudanças e transições de carreira:</strong> Clareza de valores e tomada de decisão fundamentada para novos ciclos.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <button onclick="openBookingModal('Atendimento Clínico')" class="w-full py-3.5 px-5 rounded-lg bg-bg-alt hover:bg-light-green/60 text-accent-green font-semibold text-sm transition-custom flex items-center justify-center gap-2 border border-border-subtle group-hover:border-accent-green/40">
+              <span>Agendar Psicoterapia Clínica (TCC)</span>
+              <i class="fa-solid fa-arrow-right text-xs"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== 04. CADA CONTEXTO TEM SEUS DESAFIOS ==================== -->
+  <section id="contextos" class="py-20 bg-bg-alt border-y border-border-subtle">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto space-y-3 mb-16 reveal reveal-up">
+        <h2 class="text-xs font-bold uppercase tracking-widest text-accent-green">Para Quem É</h2>
+        <h3 class="font-heading font-bold text-2xl sm:text-3xl text-deep-blue">
+          Cada contexto tem seus próprios desafios
+        </h3>
+        <p class="text-text-muted text-base leading-relaxed">
+          A intervenção psicológica não é padronizada. Cada papel exige um olhar direcionado para as pressões específicas de sua rotina.
+        </p>
+      </div>
+
+      <!-- 4 Colunas Minimalistas -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- CARD: ATLETAS -->
+        <div class="bg-white rounded-2xl p-7 border border-border-subtle shadow-subtle flex flex-col justify-between hover-float hover:border-med-blue/40 transition-custom reveal reveal-up">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-deep-blue text-white flex items-center justify-center text-base mb-5">
+              <i class="fa-solid fa-person-running"></i>
+            </div>
+            <h4 class="font-heading font-bold text-lg text-deep-blue mb-2">Atletas</h4>
+            <p class="text-xs font-semibold text-accent-green uppercase tracking-wider mb-4">Rendimento & Foco</p>
+            <p class="text-xs sm:text-sm text-text-muted leading-relaxed mb-4">
+              Pressão por vitória, manutenção de concentração durante oscilações de placar, confiança na tomada de decisão e reabilitação segura pós-lesão.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-gray-100 text-xs font-medium text-med-blue flex items-center gap-1.5">
+            <i class="fa-solid fa-arrow-trend-up text-accent-green"></i>
+            <span>Consistência competitiva</span>
+          </div>
+        </div>
+
+        <!-- CARD: TÉCNICOS -->
+        <div class="bg-white rounded-2xl p-7 border border-border-subtle shadow-subtle flex flex-col justify-between hover-float hover:border-med-blue/40 transition-custom reveal reveal-up delay-100">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-med-blue text-white flex items-center justify-center text-base mb-5">
+              <i class="fa-solid fa-clipboard-user"></i>
+            </div>
+            <h4 class="font-heading font-bold text-lg text-deep-blue mb-2">Técnicos</h4>
+            <p class="text-xs font-semibold text-accent-green uppercase tracking-wider mb-4">Liderança & Decisão</p>
+            <p class="text-xs sm:text-sm text-text-muted leading-relaxed mb-4">
+              Liderança de grupo, comunicação assertiva com atletas e diretoria, tomada de decisões rápidas sob estresse e manejo da sobrecarga emocional.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-gray-100 text-xs font-medium text-med-blue flex items-center gap-1.5">
+            <i class="fa-solid fa-bullhorn text-accent-green"></i>
+            <span>Gestão de elenco</span>
+          </div>
+        </div>
+
+        <!-- CARD: CLUBES -->
+        <div class="bg-white rounded-2xl p-7 border border-border-subtle shadow-subtle flex flex-col justify-between hover-float hover:border-med-blue/40 transition-custom reveal reveal-up delay-200">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-deep-blue text-white flex items-center justify-center text-base mb-5">
+              <i class="fa-solid fa-shield"></i>
+            </div>
+            <h4 class="font-heading font-bold text-lg text-deep-blue mb-2">Clubes</h4>
+            <p class="text-xs font-semibold text-accent-green uppercase tracking-wider mb-4">Cultura & Prevenção</p>
+            <p class="text-xs sm:text-sm text-text-muted leading-relaxed mb-4">
+              Desenvolvimento de cultura esportiva saudável, coesão entre comissões, prevenção do esgotamento (burnout) e suporte psicológico institucional.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-gray-100 text-xs font-medium text-med-blue flex items-center gap-1.5">
+            <i class="fa-solid fa-users text-accent-green"></i>
+            <span>Clima organizacional</span>
+          </div>
+        </div>
+
+        <!-- CARD: FAMÍLIAS -->
+        <div class="bg-white rounded-2xl p-7 border border-border-subtle shadow-subtle flex flex-col justify-between hover-float hover:border-med-blue/40 transition-custom reveal reveal-up delay-300">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-accent-green text-white flex items-center justify-center text-base mb-5">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+            <h4 class="font-heading font-bold text-lg text-deep-blue mb-2">Famílias</h4>
+            <p class="text-xs font-semibold text-accent-green uppercase tracking-wider mb-4">Apoio & Equilíbrio</p>
+            <p class="text-xs sm:text-sm text-text-muted leading-relaxed mb-4">
+              Como apoiar o desenvolvimento do atleta jovem ou profissional sem transformar a convivência familiar em fonte constante de cobrança e ansiedade.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-gray-100 text-xs font-medium text-med-blue flex items-center gap-1.5">
+            <i class="fa-solid fa-hand-holding-heart text-accent-green"></i>
+            <span>Rede de suporte saudável</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Callout Conversacional Intermediário -->
+      <div class="mt-12 text-center reveal reveal-up delay-400">
+        <button onclick="openBookingModal('Contextos - Conversar sobre meu caso')" class="inline-flex items-center gap-2 bg-white hover:bg-light-green/40 border border-light-green text-deep-blue hover:text-med-blue px-6 py-3 rounded-lg text-sm font-semibold transition-custom shadow-sm hover-float">
+          <span>Conversar sobre meu caso ou equipe</span>
+          <i class="fa-solid fa-arrow-right text-xs text-accent-green"></i>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== 05. SOBRE O PROFISSIONAL ==================== -->
+  <section id="sobre" class="py-20 bg-bg-base relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Foto / Bloco de Identificação com Imagem Real -->
+        <div class="lg:col-span-5 reveal reveal-right">
+          <div class="bg-white rounded-2xl p-5 border border-border-subtle shadow-subtle space-y-5 hover-float transition-custom">
+            
+            <!-- Moldura com Foto Real -->
+            <div class="rounded-xl overflow-hidden aspect-[4/5] bg-bg-alt relative shadow-inner group">
+              <img 
+                src="Gemini_Generated_Image_5ok5sf5ok5sf5ok5.png" 
+                alt="Psicólogo Guilherme Félix em atendimento" 
+                class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                loading="lazy"
+                onerror="this.style.display='none';"
+              />
+              
+              <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-deep-blue via-deep-blue/80 to-transparent p-5 text-white">
+                <span class="text-[11px] font-semibold text-light-green uppercase tracking-wider block">Psicólogo Clínico & do Esporte</span>
+                <h3 class="font-heading font-bold text-xl text-white">Guilherme Félix</h3>
+                <p class="text-xs text-white/80 mt-0.5">Terapia Cognitivo-Comportamental (TCC)</p>
+              </div>
+            </div>
+
+            <!-- Indicadores Técnicos Sem Métricas Artificiais -->
+            <div class="space-y-2.5 pt-1 text-xs">
+              <div class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                <span class="text-text-muted font-medium">Registro Profissional:</span>
+                <span class="font-bold text-deep-blue">CRP 20/05432</span>
+              </div>
+              <div class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                <span class="text-text-muted font-medium">Abordagem Teórica:</span>
+                <span class="font-bold text-accent-green">Terapia Cognitivo-Comportamental</span>
+              </div>
+              <div class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                <span class="text-text-muted font-medium">Atuação:</span>
+                <span class="font-bold text-deep-blue">Esporte de Alto Rendimento + Clínica</span>
+              </div>
+              <div class="flex items-center justify-between py-1.5 border-b border-gray-100">
+                <span class="text-text-muted font-medium">Instagram:</span>
+                <a href="https://www.instagram.com/euguilhermefelix/" target="_blank" rel="noopener noreferrer" class="font-bold text-deep-blue hover:text-accent-green transition-colors">@euguilhermefelix</a>
+              </div>
+              <div class="flex items-center justify-between py-1.5">
+                <span class="text-text-muted font-medium">E-mail:</span>
+                <a href="mailto:psiguilhermefelix@gmail.com" class="font-bold text-deep-blue hover:text-accent-green transition-colors">psiguilhermefelix@gmail.com</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Biografia e Filosofia de Atendimento -->
+        <div class="lg:col-span-7 space-y-6 reveal reveal-left delay-100">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-light-green/60 text-med-blue text-xs font-bold uppercase tracking-wider">
+            Trajetória & Abordagem
+          </div>
+
+          <h2 class="font-heading font-bold text-2xl sm:text-3xl lg:text-4xl text-deep-blue leading-tight">
+            Prática psicológica baseada em evidências, acolhimento e foco em soluções.
+          </h2>
+
+          <div class="space-y-4 text-text-muted text-sm sm:text-base leading-relaxed">
+            <p>
+              Olá! Sou <strong>Guilherme Félix (CRP 20/05432)</strong>, psicólogo atuante na intersecção entre o rendimento esportivo e a psicoterapia clínica, fundamentado na <strong>Terapia Cognitivo-Comportamental (TCC)</strong>.
+            </p>
+            <p>
+              A TCC é uma das abordagens com maior respaldo científico no mundo. No contexto esportivo, ela permite mapear com precisão os pensamentos automáticos que disparam ansiedade pré-competitiva, bloqueios de tomada de decisão e oscilações de rendimento. Na clínica diária, fornece ferramentas concretas para que você compreenda suas reações emocionais e aprenda a regular o estresse com independência.
+            </p>
+            <p>
+              Meu compromisso é construir um ambiente empático, seguro e sem julgamentos, onde tanto atletas de elite quanto pessoas em busca de equilíbrio encontrem um direcionamento prático para suas dores e metas.
+            </p>
+          </div>
+
+          <!-- Pilares de Conduta -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-3">
+            <div class="bg-bg-alt p-4 rounded-xl border border-gray-100">
+              <i class="fa-solid fa-brain text-med-blue text-base mb-2"></i>
+              <div class="font-heading font-bold text-xs text-deep-blue">TCC Aplicada</div>
+              <div class="text-[11px] text-text-muted mt-1 leading-normal">Técnicas cognitivas e comportamentais com eficácia testada.</div>
+            </div>
+            
+            <div class="bg-bg-alt p-4 rounded-xl border border-gray-100">
+              <i class="fa-solid fa-hand-holding-heart text-accent-green text-base mb-2"></i>
+              <div class="font-heading font-bold text-xs text-deep-blue">Aliança Terapêutica</div>
+              <div class="text-[11px] text-text-muted mt-1 leading-normal">Trabalho colaborativo e personalizado para o seu ritmo.</div>
+            </div>
+
+            <div class="bg-bg-alt p-4 rounded-xl border border-gray-100">
+              <i class="fa-solid fa-scale-balanced text-med-blue text-base mb-2"></i>
+              <div class="font-heading font-bold text-xs text-deep-blue">Ética & Sigilo</div>
+              <div class="text-[11px] text-text-muted mt-1 leading-normal">Conformidade estrita com o Conselho Federal de Psicologia.</div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== 06. PERGUNTAS FREQUENTES (FAQ) ==================== -->
+  <section id="faq" class="py-20 bg-bg-alt border-t border-border-subtle">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center space-y-3 mb-14 reveal reveal-up">
+        <h2 class="text-xs font-bold uppercase tracking-widest text-accent-green">Dúvidas Comuns</h2>
+        <h3 class="font-heading font-bold text-2xl sm:text-3xl text-deep-blue">
+          Perguntas Frequentes
+        </h3>
+        <p class="text-text-muted text-sm sm:text-base">
+          Informações claras sobre o funcionamento das sessões, formatos e processo de acompanhamento.
+        </p>
+      </div>
+
+      <!-- Accordion Limpo -->
+      <div class="space-y-3 reveal reveal-up delay-100" id="faq-list">
+        
+        <!-- Pergunta 1 -->
+        <div class="faq-item border border-border-subtle rounded-xl bg-white overflow-hidden transition-custom">
+          <button onclick="toggleFAQ(this)" class="w-full text-left p-5 sm:p-6 font-heading font-semibold text-sm sm:text-base text-deep-blue flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+            <span>Como funciona a Terapia Cognitivo-Comportamental (TCC) nas sessões?</span>
+            <span class="w-7 h-7 rounded-full bg-bg-alt flex items-center justify-center text-xs text-accent-green flex-shrink-0">
+              <i class="fa-solid fa-plus transition-transform duration-200"></i>
+            </span>
+          </button>
+          <div class="faq-answer hidden px-5 sm:px-6 pb-6 pt-1 text-xs sm:text-sm text-text-muted leading-relaxed border-t border-gray-100">
+            A TCC é uma abordagem estruturada, focada no presente e colaborativa. Identificamos como os pensamentos influenciam suas emoções e comportamentos. Ao invés de apenas falar sem rumo, construímos planos de ação, estratégias de enfrentamento e técnicas de respiração e regulação para que você aplique no seu dia a dia e nos treinos/competições.
+          </div>
+        </div>
+
+        <!-- Pergunta 2 -->
+        <div class="faq-item border border-border-subtle rounded-xl bg-white overflow-hidden transition-custom">
+          <button onclick="toggleFAQ(this)" class="w-full text-left p-5 sm:p-6 font-heading font-semibold text-sm sm:text-base text-deep-blue flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+            <span>Como funciona a primeira sessão?</span>
+            <span class="w-7 h-7 rounded-full bg-bg-alt flex items-center justify-center text-xs text-accent-green flex-shrink-0">
+              <i class="fa-solid fa-plus transition-transform duration-200"></i>
+            </span>
+          </button>
+          <div class="faq-answer hidden px-5 sm:px-6 pb-6 pt-1 text-xs sm:text-sm text-text-muted leading-relaxed border-t border-gray-100">
+            A primeira sessão é um momento de escuta e alinhamento. Nela, você compartilha suas queixas, histórico esportivo ou pessoal, rotina e o que espera do acompanhamento. Apresento como funciona a metodologia de trabalho e, em conjunto, combinamos a frequência e os passos do processo.
+          </div>
+        </div>
+
+        <!-- Pergunta 3 -->
+        <div class="faq-item border border-border-subtle rounded-xl bg-white overflow-hidden transition-custom">
+          <button onclick="toggleFAQ(this)" class="w-full text-left p-5 sm:p-6 font-heading font-semibold text-sm sm:text-base text-deep-blue flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+            <span>O atendimento pode ser online?</span>
+            <span class="w-7 h-7 rounded-full bg-bg-alt flex items-center justify-center text-xs text-accent-green flex-shrink-0">
+              <i class="fa-solid fa-plus transition-transform duration-200"></i>
+            </span>
+          </button>
+          <div class="faq-answer hidden px-5 sm:px-6 pb-6 pt-1 text-xs sm:text-sm text-text-muted leading-relaxed border-t border-gray-100">
+            Sim. As sessões online são regulamentadas pelo Conselho Federal de Psicologia (CFP) e acontecem por videochamada em plataforma segura. Esse formato proporciona a mesma eficácia e sigilo técnico do presencial, facilitando a rotina de atletas com viagens frequentes ou pessoas residentes em outras cidades.
+          </div>
+        </div>
+
+        <!-- Pergunta 4 -->
+        <div class="faq-item border border-border-subtle rounded-xl bg-white overflow-hidden transition-custom">
+          <button onclick="toggleFAQ(this)" class="w-full text-left p-5 sm:p-6 font-heading font-semibold text-sm sm:text-base text-deep-blue flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+            <span>Atletas menores de idade podem ser atendidos?</span>
+            <span class="w-7 h-7 rounded-full bg-bg-alt flex items-center justify-center text-xs text-accent-green flex-shrink-0">
+              <i class="fa-solid fa-plus transition-transform duration-200"></i>
+            </span>
+          </button>
+          <div class="faq-answer hidden px-5 sm:px-6 pb-6 pt-1 text-xs sm:text-sm text-text-muted leading-relaxed border-t border-gray-100">
+            Sim. O atendimento a crianças e adolescentes é plenamente viável mediante consentimento prévio dos responsáveis legais. O trabalho busca fortalecer a autonomia e a saúde mental do jovem atleta, com conversas pontuais com os pais para manter a harmonia no suporte familiar.
+          </div>
+        </div>
+
+        <!-- Pergunta 5 -->
+        <div class="faq-item border border-border-subtle rounded-xl bg-white overflow-hidden transition-custom">
+          <button onclick="toggleFAQ(this)" class="w-full text-left p-5 sm:p-6 font-heading font-semibold text-sm sm:text-base text-deep-blue flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+            <span>Qual a diferença entre Psicologia do Esporte e Atendimento Clínico?</span>
+            <span class="w-7 h-7 rounded-full bg-bg-alt flex items-center justify-center text-xs text-accent-green flex-shrink-0">
+              <i class="fa-solid fa-plus transition-transform duration-200"></i>
+            </span>
+          </button>
+          <div class="faq-answer hidden px-5 sm:px-6 pb-6 pt-1 text-xs sm:text-sm text-text-muted leading-relaxed border-t border-gray-100">
+            A Psicologia do Esporte tem foco prioritário no comportamento, na regulação psicológica e no rendimento dentro das demandas do treino e da competição. O Atendimento Clínico engloba a vida em sua totalidade: autoconhecimento amplo, conflitos relacionais, histórico de vida e sintomas de ansiedade ou depressão.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== 07. BANNER FINAL & RODAPÉ ==================== -->
+  <section class="py-16 sm:py-20 bg-light-green/30 border-t border-border-subtle relative">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6 reveal reveal-scale">
+      
+      <span class="text-xs font-bold uppercase tracking-widest text-med-blue bg-white px-3.5 py-1.5 rounded-full border border-light-green inline-block shadow-sm">
+        Atendimento Inicial com Agilidade
+      </span>
+
+      <h2 class="font-heading font-bold text-2xl sm:text-4xl text-deep-blue tracking-tight">
+        Dúvidas sobre como começar? Vamos conversar.
+      </h2>
+
+      <p class="text-text-muted text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
+        Envie uma mensagem pelo WhatsApp para verificar disponibilidade de horários, valores e esclarecer qualquer dúvida sobre as sessões presenciais em Manaus ou online.
+      </p>
+
+      <div class="pt-2 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <button onclick="openBookingModal('Banner Final')" class="w-full sm:w-auto bg-accent-green hover:bg-accent-hover text-white font-semibold px-8 py-3.5 rounded-lg shadow-sm hover:shadow transition-custom text-sm flex items-center justify-center gap-2.5">
+          <i class="fa-brands fa-whatsapp text-lg"></i>
+          <span>Falar com Guilherme no WhatsApp</span>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- RODAPÉ INSTITUCIONAL -->
+  <footer class="bg-deep-blue text-white py-14 border-t border-deep-blue">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 pb-10 border-b border-white/10 text-xs">
+        
+        <!-- Identificação e Propósito -->
+        <div class="md:col-span-5 space-y-3">
+          <div class="font-heading font-bold text-xl text-white">Guilherme Félix</div>
+          <div class="text-light-green font-medium">Psicólogo — CRP 20/05432 • TCC</div>
+          <p class="text-white/70 leading-relaxed max-w-sm">
+            Psicologia do Esporte e Atendimento Clínico orientado pela Terapia Cognitivo-Comportamental. Presencial em Manaus/AM e Online para todo o Brasil e exterior.
+          </p>
+          <div class="flex items-center gap-4 pt-1">
+            <a href="https://www.instagram.com/euguilhermefelix/" target="_blank" rel="noopener noreferrer" class="text-white/80 hover:text-light-green text-lg transition-colors" title="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="mailto:psiguilhermefelix@gmail.com" class="text-white/80 hover:text-light-green text-lg transition-colors" title="E-mail">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <button onclick="openBookingModal('Footer Social')" class="text-white/80 hover:text-light-green text-lg transition-colors" title="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Links Rápidos -->
+        <div class="md:col-span-3 space-y-2.5">
+          <div class="font-semibold text-white uppercase tracking-wider text-[11px]">Navegação Rápida</div>
+          <ul class="space-y-2 text-white/70">
+            <li><a href="#top" class="hover:text-light-green transition-colors">Início</a></li>
+            <li><a href="#esporte" class="hover:text-light-green transition-colors">Psicologia do Esporte</a></li>
+            <li><a href="#clinica" class="hover:text-light-green transition-colors">Atendimento Clínico (TCC)</a></li>
+            <li><a href="#contextos" class="hover:text-light-green transition-colors">Para Quem É</a></li>
+            <li><a href="#sobre" class="hover:text-light-green transition-colors">Sobre o Profissional</a></li>
+            <li><a href="#faq" class="hover:text-light-green transition-colors">Perguntas Frequentes</a></li>
+          </ul>
+        </div>
+
+        <!-- Localização & Contato Direto -->
+        <div class="md:col-span-4 space-y-2.5">
+          <div class="font-semibold text-white uppercase tracking-wider text-[11px]">Canais de Atendimento</div>
+          <p class="text-white/70 leading-relaxed">
+            📱 <strong>WhatsApp:</strong> (92) 98103-5676
+          </p>
+          <p class="text-white/70 leading-relaxed">
+            ✉️ <strong>E-mail:</strong> psiguilhermefelix@gmail.com
+          </p>
+          <p class="text-white/70 leading-relaxed">
+            📸 <strong>Instagram:</strong> @euguilhermefelix
+          </p>
+          <p class="text-white/70 leading-relaxed">
+            📍 <strong>Presencial:</strong> Manaus / AM &bull; <strong>Online:</strong> Plataforma segura
+          </p>
+          <div class="pt-2">
+            <button onclick="openBookingModal('Footer Direct')" class="inline-flex items-center gap-2 text-light-green hover:underline font-semibold">
+              <i class="fa-brands fa-whatsapp text-sm"></i>
+              <span>Iniciar conversa no WhatsApp</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Linha Final de Copyright e Ética -->
+      <div class="pt-6 flex flex-col sm:flex-row items-center justify-between text-[11px] text-white/50 gap-4">
+        <div>
+          © 2026 Guilherme Félix Psicologia. Todos os direitos reservados.
+        </div>
+        <div class="flex items-center gap-3">
+          <span>Código de Ética Profissional (CFP)</span>
+          <span>•</span>
+          <span>CRP 20/05432</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== BOTÃO FLUTUANTE DE WHATSAPP ==================== -->
+  <a href="javascript:void(0)" onclick="openBookingModal('Botão Flutuante WhatsApp')" aria-label="Falar com Guilherme Félix no WhatsApp" class="fixed bottom-20 md:bottom-6 right-6 z-40 bg-[#25D366] hover:bg-[#20bd5a] text-white w-14 h-14 rounded-full shadow-lg flex items-center justify-center transition-custom hover:scale-110 focus:outline-none" title="Agendar pelo WhatsApp">
+    <i class="fa-brands fa-whatsapp text-2xl"></i>
+    <!-- Ponto pulsante indicativo de disponibilidade -->
+    <span class="absolute top-1 right-1 flex h-3.5 w-3.5">
+      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+      <span class="relative inline-flex rounded-full h-3.5 w-3.5 bg-white"></span>
+    </span>
+  </a>
+
+  <!-- ==================== BARRA FIXA INFERIOR MOBILE (STICKY CTA) ==================== -->
+  <div id="sticky-mobile-bar" class="fixed bottom-0 left-0 w-full z-40 bg-white/95 backdrop-blur-md border-t border-border-subtle p-3 flex md:hidden items-center justify-between gap-3 shadow-lg transform translate-y-full transition-transform duration-300">
+    <div class="text-xs truncate">
+      <div class="font-bold text-deep-blue truncate">Guilherme Félix</div>
+      <div class="text-[10px] text-accent-green font-semibold">TCC • CRP 20/05432</div>
+    </div>
+    <button onclick="openBookingModal('Mobile Sticky Bar')" class="bg-[#25D366] hover:bg-[#20bd5a] text-white text-xs font-semibold px-4 py-2.5 rounded-lg flex items-center gap-1.5 flex-shrink-0 shadow-sm">
+      <i class="fa-brands fa-whatsapp text-sm"></i>
+      <span>Falar no WhatsApp</span>
+    </button>
+  </div>
+
+  <!-- ==================== MODAL DE AGENDAMENTO GUIADO ==================== -->
+  <div id="booking-modal" class="fixed inset-0 z-50 bg-deep-blue/60 backdrop-blur-sm hidden flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-lg w-full p-6 sm:p-8 shadow-2xl relative border border-border-subtle">
+      <!-- Botão Fechar -->
+      <button onclick="closeBookingModal()" aria-label="Fechar janela" class="absolute top-5 right-5 text-gray-400 hover:text-deep-blue text-xl">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="space-y-4">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider text-accent-green">Atendimento Guiado</span>
+          <h3 class="font-heading font-bold text-xl sm:text-2xl text-deep-blue mt-1">Iniciar Contato com o Psicólogo</h3>
+          <p class="text-xs text-text-muted mt-1 leading-relaxed">
+            Preencha os dados abaixo para gerar uma mensagem organizada no WhatsApp de Guilherme Félix.
+          </p>
+        </div>
+
+        <form onsubmit="handleBookingSubmit(event)" class="space-y-3.5 pt-2">
+          <div>
+            <label for="modal-name" class="block text-xs font-semibold text-deep-blue mb-1">Seu Nome Completo</label>
+            <input type="text" id="modal-name" required placeholder="Ex: Lucas Mendes" class="w-full text-xs p-3 rounded-lg border border-gray-200 focus:outline-none focus:border-accent-green">
+          </div>
+
+          <div>
+            <label for="modal-area" class="block text-xs font-semibold text-deep-blue mb-1">Área de Interesse</label>
+            <select id="modal-area" class="w-full text-xs p-3 rounded-lg border border-gray-200 focus:outline-none focus:border-accent-green">
+              <option value="Psicologia do Esporte (Atleta Individual)">Psicologia do Esporte (Atleta Individual)</option>
+              <option value="Psicologia do Esporte (Técnico / Clube / Equipe)">Psicologia do Esporte (Técnico / Clube / Equipe)</option>
+              <option value="Atendimento Clínico Geral">Atendimento Clínico Geral</option>
+              <option value="Acompanhamento para Família de Atleta">Acompanhamento para Família de Atleta</option>
+              <option value="Dúvida Geral sobre as Sessões">Dúvida Geral sobre as Sessões</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="modal-modality" class="block text-xs font-semibold text-deep-blue mb-1">Modalidade Desejada</label>
+            <select id="modal-modality" class="w-full text-xs p-3 rounded-lg border border-gray-200 focus:outline-none focus:border-accent-green">
+              <option value="Presencial em Manaus/AM">Presencial em Manaus/AM</option>
+              <option value="Atendimento Online">Atendimento Online</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="modal-obs" class="block text-xs font-semibold text-deep-blue mb-1">Breve Descrição ou Melhor Turno (Opcional)</label>
+            <textarea id="modal-obs" rows="2" placeholder="Ex: Gostaria de saber horários livres no período da tarde..." class="w-full text-xs p-3 rounded-lg border border-gray-200 focus:outline-none focus:border-accent-green"></textarea>
+          </div>
+
+          <button type="submit" class="w-full bg-accent-green hover:bg-accent-hover text-white font-semibold py-3.5 rounded-lg transition-custom text-xs sm:text-sm flex items-center justify-center gap-2 mt-3 shadow-sm">
+            <span>Abrir WhatsApp com Mensagem Pronta</span>
+            <i class="fa-brands fa-whatsapp text-sm"></i>
+          </button>
+
+          <p class="text-[11px] text-center text-text-muted mt-2">
+            O primeiro contato é sem compromisso e tem caráter de alinhamento e agendamento.
+          </p>
+        </form>
       </div>
     </div>
   </div>
-</section>
 
-<section class="faq" id="faq">
-  <div class="wrap">
-    <div class="section-head" style="margin-left:auto;margin-right:auto;text-align:center">
-      <span class="eyebrow">Dúvidas frequentes</span>
-      <h2>Antes de começar, é normal ter perguntas.</h2>
-    </div>
-    <div class="faq-list">
-      <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">Como funciona a primeira sessão?<span class="plus" aria-hidden="true"></span></button>
-        <div class="faq-a"><p>A primeira sessão é um espaço para nos conhecermos, entender sua demanda, seu contexto e o que te trouxe até aqui. A partir disso, alinhamos os objetivos e a forma de acompanhamento.</p></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">Preciso saber exatamente o que tenho antes de procurar terapia?<span class="plus" aria-hidden="true"></span></button>
-        <div class="faq-a"><p>Não. Você pode procurar atendimento porque percebeu que algo não está bem, está enfrentando uma dificuldade ou simplesmente quer compreender melhor o que está vivendo. A avaliação inicial ajuda a organizar essa demanda.</p></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">O atendimento pode ser online?<span class="plus" aria-hidden="true"></span></button>
-        <div class="faq-a"><p>Sim. O atendimento é realizado online e também presencialmente em Manaus/AM. O formato pode ser conversado no primeiro contato.</p></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">Quanto tempo dura a terapia?<span class="plus" aria-hidden="true"></span></button>
-        <div class="faq-a"><p>Não existe um prazo único. A duração depende da demanda, dos objetivos e da evolução do processo. Isso é acompanhado e revisado ao longo do atendimento.</p></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">Quanto custa a sessão?<span class="plus" aria-hidden="true"></span></button>
-        <div class="faq-a"><p>Valores, formas de pagamento e disponibilidade são informados diretamente no primeiro contato pelo WhatsApp.</p></div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-q" aria-expanded="false">O atendimento é sigiloso?</button>
-        <div class="faq-a"><p>Sim. O atendimento psicológico segue as normas éticas e de sigilo profissional aplicáveis à profissão.</p></div>
-      </div>
-    </div>
-  </div>
-</section>
+  <!-- ==================== LÓGICA JAVASCRIPT ==================== -->
+  <script>
+    /* 
+      CONFIGURAÇÕES GERAIS DO SITE (ATUALIZADAS)
+    */
+    const SITE_CONFIG = {
+      whatsappNumber: '5592981035676', // WhatsApp Atualizado: (92) 98103-5676
+      email: 'psiguilhermefelix@gmail.com',
+      instagramUrl: 'https://www.instagram.com/euguilhermefelix/',
+      psicologoNome: 'Guilherme Félix',
+      crp: 'CRP 20/05432',
+      abordagem: 'Terapia Cognitivo-Comportamental (TCC)'
+    };
 
-<section class="final-cta">
-  <div class="wrap">
-    <h2>Se você está pensando em começar, podemos conversar.</h2>
-    <p>Envie uma mensagem pelo WhatsApp para tirar suas dúvidas e entender os próximos passos.</p>
-    <a href="https://wa.me/5592981035676?text=Ol%C3%A1%2C%20Guilherme!%20Estou pensando em iniciar terapia e gostaria de saber mais." target="_blank" rel="noopener noreferrer" class="btn btn-primary">Conversar pelo WhatsApp →</a>
-  </div>
-</section>
-</main>
+    // --- CONTROLE DO ACCORDION FAQ ---
+    function toggleFAQ(button) {
+      const item = button.closest('.faq-item');
+      const answer = item.querySelector('.faq-answer');
+      const icon = button.querySelector('i');
+      
+      const isOpen = !answer.classList.contains('hidden');
 
-<footer>
-  <div class="wrap footer-grid">
-    <div class="footer-brand">
-      <strong>Guilherme Félix</strong>
-      <p>Psicólogo com atendimento voltado para Terapia Cognitivo-Comportamental. Online e presencial em Manaus/AM.</p>
-    </div>
-    <div class="footer-col">
-      <h4>Navegação</h4>
-      <ul>
-        <li><a href="#tcc">TCC</a></li>
-        <li><a href="#como-funciona">Como funciona</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#faq">Dúvidas</a></li>
-      </ul>
-    </div>
-    <div class="footer-col">
-      <h4>Contato</h4>
-      <ul>
-        <li><a href="https://wa.me/5592981035676" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
-        <li><a href="https://www.instagram.com/euguilhermefelix/" target="_blank" rel="noopener noreferrer">@euguilhermefelix</a></li>
-        <li><a href="mailto:psiguilhermefelix@gmail.com">psiguilhermefelix@gmail.com</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="wrap footer-bottom">
-    <span>© <span id="year"></span> Guilherme Félix — Psicólogo. Todos os direitos reservados.</span>
-    <span>Manaus/AM</span>
-  </div>
-</footer>
+      // Fechar todos os outros acordeões
+      document.querySelectorAll('.faq-answer').forEach(el => el.classList.add('hidden'));
+      document.querySelectorAll('.faq-item').forEach(el => el.classList.remove('border-accent-green'));
+      document.querySelectorAll('.faq-item i').forEach(el => {
+        el.classList.remove('fa-minus', 'rotate-180');
+        el.classList.add('fa-plus');
+      });
 
-<div class="sticky-bar" id="stickyBar">
-  <a href="https://wa.me/5592981035676?text=Ol%C3%A1%2C%20Guilherme!%20Gostaria de saber mais sobre o atendimento com TCC." target="_blank" rel="noopener noreferrer">Falar com Guilherme no WhatsApp →</a>
-</div>
-
-<a class="float-wa" href="https://wa.me/5592981035676?text=Ol%C3%A1%2C%20Guilherme!%20Gostaria de saber mais sobre o atendimento com TCC." target="_blank" rel="noopener noreferrer" aria-label="Falar com Guilherme no WhatsApp">
-<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20.5 3.5A11.4 11.4 0 0 0 12.1.9C5.9.9.9 5.9.9 12.1c0 2 .5 3.9 1.5 5.6L.8 23.1l5.6-1.5a11.2 11.2 0 0 0 5.7 1.5h.1c6.2 0 11.2-5 11.2-11.2 0-3-1.2-5.8-3.3-7.9ZM12.1 21c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.3.9.9-3.2-.2-.4a9.1 9.1 0 0 1-1.4-4.7c0-5 4.1-9.1 9.1-9.1 2.4 0 4.7.9 6.5 2.6a9.1 9.1 0 0 1 2.7 6.5c0 5-4.1 9-9.9 9Zm5-6.8-.2.1c-.2.2-.5.3-.7.5-.6.4-.9.4-1.6.3-1.2-.4-2.3-1.1-3.3-2-.8-.8-1.4-1.7-1.8-2.6-.1-.3 0-.6.2-.8l.4-.5c.2-.2.3-.4.1-.7l-.9-2.1c-.2-.5-.4-.5-.7-.5h-.5c-.3 0-.6.1-.9.4-.9.9-1.2 2.1-.7 3.4.6 1.6 1.7 3.1 3 4.2 1.5 1.3 3.2 2.1 5 2.4 1.2.2 2.3-.1 3.1-1 .2-.3.4-.6.3-1 0-.2-.2-.3-.4-.4Z" fill="#fff"/></svg>
-</a>
-
-<script>
-document.getElementById('year').textContent = new Date().getFullYear();
-
-const menuToggle = document.getElementById('menuToggle');
-const mobileMenu = document.getElementById('mobileMenu');
-menuToggle.addEventListener('click', () => {
-  const open = mobileMenu.classList.toggle('open');
-  menuToggle.setAttribute('aria-expanded', String(open));
-});
-mobileMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
-  mobileMenu.classList.remove('open');
-  menuToggle.setAttribute('aria-expanded','false');
-}));
-
-document.querySelectorAll('.faq-item').forEach(item => {
-  const q = item.querySelector('.faq-q');
-  const a = item.querySelector('.faq-a');
-  q.addEventListener('click', () => {
-    const isOpen = item.classList.contains('open');
-    document.querySelectorAll('.faq-item.open').forEach(openItem => {
-      openItem.classList.remove('open');
-      openItem.querySelector('.faq-a').style.maxHeight = null;
-      openItem.querySelector('.faq-q').setAttribute('aria-expanded','false');
-    });
-    if (!isOpen) {
-      item.classList.add('open');
-      a.style.maxHeight = a.scrollHeight + 'px';
-      q.setAttribute('aria-expanded','true');
+      // Abrir o item clicado se não estava aberto
+      if (!isOpen) {
+        answer.classList.remove('hidden');
+        item.classList.add('border-accent-green');
+        icon.classList.remove('fa-plus');
+        icon.classList.add('fa-minus', 'rotate-180');
+        button.setAttribute('aria-expanded', 'true');
+      } else {
+        button.setAttribute('aria-expanded', 'false');
+      }
     }
-  });
-});
 
-const stickyBar = document.getElementById('stickyBar');
-const hero = document.getElementById('inicio');
-const updateSticky = () => {
-  if (window.innerWidth > 980) return;
-  stickyBar.classList.toggle('visible', window.scrollY > hero.offsetHeight * .45);
-};
-window.addEventListener('scroll', updateSticky, {passive:true});
-window.addEventListener('resize', updateSticky);
-updateSticky();
-</script>
+    // --- CONTROLE DO MENU MOBILE ---
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobile-menu');
+      const icon = document.getElementById('menu-icon');
+      
+      menu.classList.toggle('hidden');
+      
+      if (menu.classList.contains('hidden')) {
+        icon.classList.remove('fa-xmark');
+        icon.classList.add('fa-bars');
+      } else {
+        icon.classList.remove('fa-bars');
+        icon.classList.add('fa-xmark');
+      }
+    }
+
+    // --- CONTROLE DO MODAL DE AGENDAMENTO ---
+    function openBookingModal(origemContexto = '') {
+      const modal = document.getElementById('booking-modal');
+      const areaSelect = document.getElementById('modal-area');
+      
+      // Ajuste contextual opcional
+      if (origemContexto.includes('Esporte')) {
+        areaSelect.value = 'Psicologia do Esporte (Atleta Individual)';
+      } else if (origemContexto.includes('Clínico')) {
+        areaSelect.value = 'Atendimento Clínico Geral';
+      }
+
+      modal.classList.remove('hidden');
+    }
+
+    function closeBookingModal() {
+      const modal = document.getElementById('booking-modal');
+      modal.classList.add('hidden');
+    }
+
+    // Fechar modal ao clicar fora do conteúdo
+    window.addEventListener('click', (e) => {
+      const modal = document.getElementById('booking-modal');
+      if (e.target === modal) {
+        closeBookingModal();
+      }
+    });
+
+    // Envio estruturado para o WhatsApp
+    function handleBookingSubmit(e) {
+      e.preventDefault();
+      
+      const name = document.getElementById('modal-name').value.trim();
+      const area = document.getElementById('modal-area').value;
+      const modality = document.getElementById('modal-modality').value;
+      const obs = document.getElementById('modal-obs').value.trim();
+
+      let text = `Olá, ${SITE_CONFIG.psicologoNome}! Meu nome é ${name}.\n`;
+      text += `Encontrei seu site e gostaria de informações sobre atendimento psicológico (${SITE_CONFIG.abordagem}).\n\n`;
+      text += `• Área de interesse: ${area}\n`;
+      text += `• Formato: ${modality}`;
+
+      if (obs) {
+        text += `\n• Detalhes / Preferência de horário: ${obs}`;
+      }
+
+      const whatsappUrl = `https://wa.me/${SITE_CONFIG.whatsappNumber}?text=${encodeURIComponent(text)}`;
+      
+      // Abre o WhatsApp em nova aba
+      window.open(whatsappUrl, '_blank');
+      closeBookingModal();
+    }
+
+    // --- SCROLL REVEAL ANIMATIONS (INTERSECTION OBSERVER) ---
+    // Esta lógica monitora quando os elementos entram na tela para disparar a animação
+    document.addEventListener("DOMContentLoaded", function() {
+      const revealElements = document.querySelectorAll('.reveal');
+
+      const revealOptions = {
+        threshold: 0.1, // Dispara quando 10% do elemento estiver visível (mais cedo e mais suave)
+        rootMargin: "0px 0px -10% 0px" // Margem relativa à tela, evita aparições/desaparições duras
+      };
+
+      const revealObserver = new IntersectionObserver(function(entries, observer) {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            // Adiciona a classe 'active' para iniciar a transição CSS
+            entry.target.classList.add('active');
+          } else {
+            // Remove a classe quando o elemento sai da tela para que ele anime novamente ao voltar
+            entry.target.classList.remove('active');
+          }
+        });
+      }, revealOptions);
+
+      revealElements.forEach(el => {
+        revealObserver.observe(el);
+      });
+      
+      // Dispara a animação inicial da Hero Section imediatamente se já estiver no topo
+      setTimeout(() => {
+        const heroElements = document.querySelectorAll('.hero-element');
+        heroElements.forEach(el => el.classList.add('active'));
+      }, 100);
+    });
+
+    // --- STICKY MOBILE CTA BAR NO SCROLL ---
+    window.addEventListener('scroll', () => {
+      const stickyBar = document.getElementById('sticky-mobile-bar');
+      // Exibe a barra após rolar mais de 350px
+      if (window.scrollY > 350) {
+        stickyBar.classList.remove('translate-y-full');
+      } else {
+        stickyBar.classList.add('translate-y-full');
+      }
+    });
+  </script>
+
 </body>
 </html>
