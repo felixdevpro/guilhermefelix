@@ -574,12 +574,13 @@
             
             <!-- Moldura com Foto Real -->
             <div class="rounded-xl overflow-hidden aspect-[4/5] bg-bg-alt relative shadow-inner group">
-               <img 
-        src="fotototo.png" 
-        alt="Psicólogo Guilherme Félix em atendimento" 
-        class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
-        loading="lazy">
-              </div>
+              <img 
+                src="fotototo.png" 
+                alt="Psicólogo Guilherme Félix em atendimento" 
+                class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                loading="lazy"
+                onerror="this.style.display='none';"
+              />
               
               <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-deep-blue via-deep-blue/80 to-transparent p-5 text-white">
                 <span class="text-[11px] font-semibold text-light-green uppercase tracking-wider block">Psicólogo Clínico & do Esporte</span>
